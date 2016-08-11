@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding-top: 10px;
+}
+.mainBackground {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+#all_canvas {
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+#canvas1 , #canvas2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#canvas1 {
+	z-index: 1;		/*canvas1在上面*/
+}
+#canvas2 {
+	z-index: 0;		/*canvas1在下面*/
+}
+
+#infro {
+	font-family: 'Microsoft YaHei',Verdana,sans-serif;
+	color: #444;
+	margin: 5px 0 0 900px;
+}
